@@ -1,3 +1,6 @@
 [submodule "tinyobjloader"]
 	path = tinyobjloader
 	url = https://github.com/tinyobjloader/tinyobjloader.git
+[submodule "fmt"]
+	path = fmt
+	url = https://github.com/fmtlib/fmt.git
