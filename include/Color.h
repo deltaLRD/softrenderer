@@ -2,9 +2,9 @@
 #define COLOR_H
 
 struct Color{
-    char r;
-    char g;
-    char b;
+    int r;
+    int g;
+    int b;
 };
 
 #endif

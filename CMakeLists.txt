@@ -5,17 +5,26 @@ project(SoftRenderer)
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 set(CMAKE_CXX_STANDARD 17)
 
-add_subdirectory(fmt)
+
 
 include_directories(include)
 include_directories(tinyobjloader)
+include_directories(fmt/include)
+
+link_directories(${PROJECT_SOURCE_DIR}/libs)
+
 
 set(SRCS
     src/Model.cpp
+    src/Picture.cpp
 )
+
 
 enable_testing()
 add_executable(OBJ_Loader_Test test/obj_loader.cpp ${SRCS})
 add_test(NAME OBJ_Loader_Test COMMAND OBJ_Loader_Test)
+
+add_executable(Pic_Test test/pic_test.cpp src/Picture.cpp)
+target_link_libraries(Pic_Test libfmt.a)
 
 add_executable(SoftRenderer src/main.cpp ${SRCS})

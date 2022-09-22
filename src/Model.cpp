@@ -7,11 +7,9 @@ Model::Model(std::string objfilepath) {
 
 bool Model::load() {
     bool ret = tinyobj::LoadObj(
-        &(this->attrib), 
-        &(this->shapes), 
-        &(this->materials), 
-        &(this->warn), &(this->err), 
-        this->inputfile.c_str()
+        &(this->attrib), &(this->shapes), 
+        &(this->materials), &(this->warn), 
+        &(this->err), this->inputfile.c_str()
     );
     return ret;
 }
