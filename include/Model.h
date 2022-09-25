@@ -6,6 +6,9 @@
 #include <string>
 #include <vector>
 
+namespace LRD {
+
+
 class Model {
 public:
   Model() = delete;
@@ -30,5 +33,5 @@ private:
   std::string warn;
   std::string err;
 };
-
+}
 #endif

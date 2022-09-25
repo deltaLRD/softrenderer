@@ -5,7 +5,7 @@
 #include <iostream>
 
 int main() {
-  Model model("../tinyobjloader/models/cornell_box.obj");
+  LRD::Model model("../tinyobjloader/models/cornell_box.obj");
   model.load();
   
   return 0;

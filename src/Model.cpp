@@ -1,11 +1,11 @@
 #include "Model.h"
 
 
-Model::Model(std::string objfilepath) {
+LRD::Model::Model(std::string objfilepath) {
     this->inputfile = objfilepath;
 }
 
-bool Model::load() {
+bool LRD::Model::load() {
     bool ret = tinyobj::LoadObj(
         &(this->attrib), &(this->shapes), 
         &(this->materials), &(this->warn), 
@@ -14,10 +14,10 @@ bool Model::load() {
     return ret;
 }
 
-const std::string Model::get_err() {
+const std::string LRD::Model::get_err() {
     return this->err;
 }
 
-const std::string Model::get_warn() {
+const std::string LRD::Model::get_warn() {
     return this->warn;
 }

@@ -7,7 +7,7 @@
 
 int main(int argc, char* argv[])
 {
-    Model model("../tinyobjloader/models/cornell_box.obj");
+    LRD::Model model("../tinyobjloader/models/cornell_box.obj");
     bool ret = model.load();
     std::cout << model.get_warn() << "\n";
     std::cout << model.get_err() << "\n";

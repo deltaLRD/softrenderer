@@ -22,9 +22,12 @@ set(SRCS
 
 enable_testing()
 add_executable(OBJ_Loader_Test test/obj_loader.cpp ${SRCS})
+target_link_libraries(OBJ_Loader_Test libfmt.a)
 add_test(NAME OBJ_Loader_Test COMMAND OBJ_Loader_Test)
 
 add_executable(Pic_Test test/pic_test.cpp src/Picture.cpp)
 target_link_libraries(Pic_Test libfmt.a)
+add_test(NAME PIC_Test COMMAND Pic_Test)
 
 add_executable(SoftRenderer src/main.cpp ${SRCS})
+target_link_libraries(SoftRenderer libfmt.a)

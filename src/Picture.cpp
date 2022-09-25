@@ -3,15 +3,15 @@
 #include <fstream>
 
 
-Picture::Picture(unsigned int width, unsigned int height, std::string path)
+LRD::Picture::Picture(unsigned int width, unsigned int height, std::string path)
     : width(width), height(height), path(path) 
 {
   data.assign(height, std::vector<Color>(width, {0, 0, 0}));
 }
 
-Color &Picture::at(unsigned int i, unsigned int j) { return data[i][j]; }
+LRD::Color &LRD::Picture::at(unsigned int i, unsigned int j) { return data[i][j]; }
 
-void Picture::writeToFile() {
+void LRD::Picture::writeToFile() {
   std::ofstream fs(path, std::ios::out);
   fs << "P3\n";
   fs << "# " << path << "\n";

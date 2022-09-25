@@ -5,6 +5,9 @@
 #include <string>
 #include <vector>
 
+namespace LRD {
+
+
 class Picture {
 
 public:
@@ -40,5 +43,5 @@ private:
   unsigned int height;
   std::string path;
 };
-
+}
 #endif
