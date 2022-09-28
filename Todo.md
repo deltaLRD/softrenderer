@@ -1,5 +1,6 @@
 # Todo
 
 - [x] add namespace
-- [ ] Sample Math function
-- [ ]  MVP
+- [x] Sample Math function
+- [ ] Camera
+- [ ] MVP

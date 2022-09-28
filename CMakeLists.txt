@@ -33,5 +33,8 @@ add_test(NAME PIC_Test COMMAND Pic_Test)
 add_executable(Eigen_Test test/Eigen_test.cpp)
 add_test(NAME EIGEN_Test COMMAND Eigen_Test)
 
+add_executable(MVP_Test test/MVP_test.cpp src/MVP.cpp)
+add_test(NAME MVP_Test COMMAND MVP_Test)
+
 add_executable(SoftRenderer src/main.cpp ${SRCS})
 target_link_libraries(SoftRenderer libfmt.a)

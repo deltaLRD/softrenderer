@@ -1,7 +1,11 @@
 ---
-BasedOnStyle: Google
-IndentWidth: 2
-TabWidth: 2
+BasedOnStyle: LLVM
+IndentWidth: 4
+TabWidth: 4
 UseTab: Never
 BreakBeforeBraces: Attach
-Standard: Cpp17
+AlignConsecutiveDeclarations: AcrossEmptyLines
+AlignOperands: true
+AllowAllParametersOfDeclarationOnNextLine: true
+AllowShortBlocksOnASingleLine: Always
+AllowShortCaseLabelsOnASingleLine: true
