@@ -1,0 +1,57 @@
+[
+{
+  "directory": "D:/C++_proj/softrenderer/cmake-build-release-clang",
+  "command": "D:\\mingw64\\bin\\clang++.exe -ID:/C++_proj/softrenderer/include -ID:/C++_proj/softrenderer/tinyobjloader -ID:/C++_proj/softrenderer/fmt/include -ID:/C++_proj/softrenderer/eigen -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\OBJ_Loader_Test.dir\\test\\obj_loader.cpp.obj -c D:\\C++_proj\\softrenderer\\test\\obj_loader.cpp",
+  "file": "D:\\C++_proj\\softrenderer\\test\\obj_loader.cpp"
+},
+{
+  "directory": "D:/C++_proj/softrenderer/cmake-build-release-clang",
+  "command": "D:\\mingw64\\bin\\clang++.exe -ID:/C++_proj/softrenderer/include -ID:/C++_proj/softrenderer/tinyobjloader -ID:/C++_proj/softrenderer/fmt/include -ID:/C++_proj/softrenderer/eigen -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\OBJ_Loader_Test.dir\\src\\Model.cpp.obj -c D:\\C++_proj\\softrenderer\\src\\Model.cpp",
+  "file": "D:\\C++_proj\\softrenderer\\src\\Model.cpp"
+},
+{
+  "directory": "D:/C++_proj/softrenderer/cmake-build-release-clang",
+  "command": "D:\\mingw64\\bin\\clang++.exe -ID:/C++_proj/softrenderer/include -ID:/C++_proj/softrenderer/tinyobjloader -ID:/C++_proj/softrenderer/fmt/include -ID:/C++_proj/softrenderer/eigen -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\OBJ_Loader_Test.dir\\src\\Picture.cpp.obj -c D:\\C++_proj\\softrenderer\\src\\Picture.cpp",
+  "file": "D:\\C++_proj\\softrenderer\\src\\Picture.cpp"
+},
+{
+  "directory": "D:/C++_proj/softrenderer/cmake-build-release-clang",
+  "command": "D:\\mingw64\\bin\\clang++.exe -ID:/C++_proj/softrenderer/include -ID:/C++_proj/softrenderer/tinyobjloader -ID:/C++_proj/softrenderer/fmt/include -ID:/C++_proj/softrenderer/eigen -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\Pic_Test.dir\\test\\pic_test.cpp.obj -c D:\\C++_proj\\softrenderer\\test\\pic_test.cpp",
+  "file": "D:\\C++_proj\\softrenderer\\test\\pic_test.cpp"
+},
+{
+  "directory": "D:/C++_proj/softrenderer/cmake-build-release-clang",
+  "command": "D:\\mingw64\\bin\\clang++.exe -ID:/C++_proj/softrenderer/include -ID:/C++_proj/softrenderer/tinyobjloader -ID:/C++_proj/softrenderer/fmt/include -ID:/C++_proj/softrenderer/eigen -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\Pic_Test.dir\\src\\Picture.cpp.obj -c D:\\C++_proj\\softrenderer\\src\\Picture.cpp",
+  "file": "D:\\C++_proj\\softrenderer\\src\\Picture.cpp"
+},
+{
+  "directory": "D:/C++_proj/softrenderer/cmake-build-release-clang",
+  "command": "D:\\mingw64\\bin\\clang++.exe -ID:/C++_proj/softrenderer/include -ID:/C++_proj/softrenderer/tinyobjloader -ID:/C++_proj/softrenderer/fmt/include -ID:/C++_proj/softrenderer/eigen -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\Eigen_Test.dir\\test\\Eigen_test.cpp.obj -c D:\\C++_proj\\softrenderer\\test\\Eigen_test.cpp",
+  "file": "D:\\C++_proj\\softrenderer\\test\\Eigen_test.cpp"
+},
+{
+  "directory": "D:/C++_proj/softrenderer/cmake-build-release-clang",
+  "command": "D:\\mingw64\\bin\\clang++.exe -ID:/C++_proj/softrenderer/include -ID:/C++_proj/softrenderer/tinyobjloader -ID:/C++_proj/softrenderer/fmt/include -ID:/C++_proj/softrenderer/eigen -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\MVP_Test.dir\\test\\MVP_test.cpp.obj -c D:\\C++_proj\\softrenderer\\test\\MVP_test.cpp",
+  "file": "D:\\C++_proj\\softrenderer\\test\\MVP_test.cpp"
+},
+{
+  "directory": "D:/C++_proj/softrenderer/cmake-build-release-clang",
+  "command": "D:\\mingw64\\bin\\clang++.exe -ID:/C++_proj/softrenderer/include -ID:/C++_proj/softrenderer/tinyobjloader -ID:/C++_proj/softrenderer/fmt/include -ID:/C++_proj/softrenderer/eigen -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\MVP_Test.dir\\src\\MVP.cpp.obj -c D:\\C++_proj\\softrenderer\\src\\MVP.cpp",
+  "file": "D:\\C++_proj\\softrenderer\\src\\MVP.cpp"
+},
+{
+  "directory": "D:/C++_proj/softrenderer/cmake-build-release-clang",
+  "command": "D:\\mingw64\\bin\\clang++.exe -ID:/C++_proj/softrenderer/include -ID:/C++_proj/softrenderer/tinyobjloader -ID:/C++_proj/softrenderer/fmt/include -ID:/C++_proj/softrenderer/eigen -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\SoftRenderer.dir\\src\\main.cpp.obj -c D:\\C++_proj\\softrenderer\\src\\main.cpp",
+  "file": "D:\\C++_proj\\softrenderer\\src\\main.cpp"
+},
+{
+  "directory": "D:/C++_proj/softrenderer/cmake-build-release-clang",
+  "command": "D:\\mingw64\\bin\\clang++.exe -ID:/C++_proj/softrenderer/include -ID:/C++_proj/softrenderer/tinyobjloader -ID:/C++_proj/softrenderer/fmt/include -ID:/C++_proj/softrenderer/eigen -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\SoftRenderer.dir\\src\\Model.cpp.obj -c D:\\C++_proj\\softrenderer\\src\\Model.cpp",
+  "file": "D:\\C++_proj\\softrenderer\\src\\Model.cpp"
+},
+{
+  "directory": "D:/C++_proj/softrenderer/cmake-build-release-clang",
+  "command": "D:\\mingw64\\bin\\clang++.exe -ID:/C++_proj/softrenderer/include -ID:/C++_proj/softrenderer/tinyobjloader -ID:/C++_proj/softrenderer/fmt/include -ID:/C++_proj/softrenderer/eigen -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\SoftRenderer.dir\\src\\Picture.cpp.obj -c D:\\C++_proj\\softrenderer\\src\\Picture.cpp",
+  "file": "D:\\C++_proj\\softrenderer\\src\\Picture.cpp"
+}
+]

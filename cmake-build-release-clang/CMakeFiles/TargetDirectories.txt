@@ -1,0 +1,8 @@
+D:/C++_proj/softrenderer/cmake-build-release-clang/CMakeFiles/OBJ_Loader_Test.dir
+D:/C++_proj/softrenderer/cmake-build-release-clang/CMakeFiles/Pic_Test.dir
+D:/C++_proj/softrenderer/cmake-build-release-clang/CMakeFiles/Eigen_Test.dir
+D:/C++_proj/softrenderer/cmake-build-release-clang/CMakeFiles/MVP_Test.dir
+D:/C++_proj/softrenderer/cmake-build-release-clang/CMakeFiles/SoftRenderer.dir
+D:/C++_proj/softrenderer/cmake-build-release-clang/CMakeFiles/test.dir
+D:/C++_proj/softrenderer/cmake-build-release-clang/CMakeFiles/edit_cache.dir
+D:/C++_proj/softrenderer/cmake-build-release-clang/CMakeFiles/rebuild_cache.dir

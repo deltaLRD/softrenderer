@@ -1,0 +1,81 @@
+Start testing: Sep 28 14:45 ?D1迆㊣那℅?那㊣??
+----------------------------------------------------------
+1/4 Testing: OBJ_Loader_Test
+1/4 Test: OBJ_Loader_Test
+Command: "D:/C++_proj/softrenderer/cmake-build-debug-clang/OBJ_Loader_Test.exe"
+Directory: D:/C++_proj/softrenderer/cmake-build-debug-clang
+"OBJ_Loader_Test" start time: Sep 28 14:45 ?D1迆㊣那℅?那㊣??
+Output:
+----------------------------------------------------------
+Material file [ cornell_box.mtl ] not found in a path : 
+Failed to load material file(s). Use default material.
+material [ 'white' ] not found in .mtl
+material [ 'light' ] not found in .mtl
+material [ 'white' ] not found in .mtl
+material [ 'white' ] not found in .mtl
+material [ 'blue' ] not found in .mtl
+material [ 'green' ] not found in .mtl
+material [ 'red' ] not found in .mtl
+material [ 'white' ] not found in .mtl
+material [ 'white' ] not found in .mtl
+material [ 'white' ] not found in .mtl
+
+
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"OBJ_Loader_Test" end time: Sep 28 14:45 ?D1迆㊣那℅?那㊣??
+"OBJ_Loader_Test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/4 Testing: PIC_Test
+2/4 Test: PIC_Test
+Command: "D:/C++_proj/softrenderer/cmake-build-debug-clang/Pic_Test.exe"
+Directory: D:/C++_proj/softrenderer/cmake-build-debug-clang
+"PIC_Test" start time: Sep 28 14:45 ?D1迆㊣那℅?那㊣??
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.13 sec
+----------------------------------------------------------
+Test Passed.
+"PIC_Test" end time: Sep 28 14:45 ?D1迆㊣那℅?那㊣??
+"PIC_Test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/4 Testing: EIGEN_Test
+3/4 Test: EIGEN_Test
+Command: "D:/C++_proj/softrenderer/cmake-build-debug-clang/Eigen_Test.exe"
+Directory: D:/C++_proj/softrenderer/cmake-build-debug-clang
+"EIGEN_Test" start time: Sep 28 14:45 ?D1迆㊣那℅?那㊣??
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"EIGEN_Test" end time: Sep 28 14:45 ?D1迆㊣那℅?那㊣??
+"EIGEN_Test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/4 Testing: MVP_Test
+4/4 Test: MVP_Test
+Command: "D:/C++_proj/softrenderer/cmake-build-debug-clang/MVP_Test.exe"
+Directory: D:/C++_proj/softrenderer/cmake-build-debug-clang
+"MVP_Test" start time: Sep 28 14:45 ?D1迆㊣那℅?那㊣??
+Output:
+----------------------------------------------------------
+ 1
+ 2
+-4
+ 1
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"MVP_Test" end time: Sep 28 14:45 ?D1迆㊣那℅?那㊣??
+"MVP_Test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Sep 28 14:45 ?D1迆㊣那℅?那㊣??

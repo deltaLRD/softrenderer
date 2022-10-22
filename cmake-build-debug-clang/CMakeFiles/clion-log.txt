@@ -1,0 +1,4 @@
+C:\Users\LRD\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\222.4167.35\bin\cmake\win\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=C:/Users/LRD/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/ninja/win/ninja.exe -DCMAKE_C_COMPILER=D:/mingw64/bin/clang.exe -DCMAKE_CXX_COMPILER=D:/mingw64/bin/clang++.exe -G Ninja -DCMAKE_LINKER=D:/mingw64/bin/lld.exe -S D:\C++_proj\softrenderer -B D:\C++_proj\softrenderer\cmake-build-debug-clang
+-- Configuring done
+-- Generating done
+-- Build files have been written to: D:/C++_proj/softrenderer/cmake-build-debug-clang

@@ -1,0 +1,96 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "SoftRenderer",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Eigen_Test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Eigen_Test-Debug-ebd82b2e25500a08b68f.json",
+					"name" : "Eigen_Test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "MVP_Test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-MVP_Test-Debug-5b8f15cfe50b7f5a135a.json",
+					"name" : "MVP_Test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "OBJ_Loader_Test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-OBJ_Loader_Test-Debug-04997f0902f9d27accd1.json",
+					"name" : "OBJ_Loader_Test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Pic_Test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Pic_Test-Debug-d160aa3bf2a2bd40b415.json",
+					"name" : "Pic_Test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "SoftRenderer::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SoftRenderer-Debug-b543f367807baa84a225.json",
+					"name" : "SoftRenderer",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/C++_proj/softrenderer/cmake-build-debug-clang",
+		"source" : "D:/C++_proj/softrenderer"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}
