@@ -20,5 +20,24 @@
         "--header-insertion=iwyu",
         // pch优化的位置
         "--pch-storage=disk",
-    ]
+    ],
+    "files.associations": {
+        "core": "cpp",
+        "superlusupport": "cpp",
+        "*.evaluator": "cpp",
+        "*.traits": "cpp",
+        "adolcforward": "cpp",
+        "alignedvector3": "cpp",
+        "autodiff": "cpp",
+        "bvh": "cpp",
+        "eulerangles": "cpp",
+        "fft": "cpp",
+        "kroneckerproduct": "cpp",
+        "mprealsupport": "cpp",
+        "nnls": "cpp",
+        "numericaldiff": "cpp",
+        "openglsupport": "cpp",
+        "specialfunctions": "cpp",
+        "splines": "cpp"
+    }
 }

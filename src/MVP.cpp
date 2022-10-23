@@ -14,6 +14,9 @@ Eigen::Matrix4f LRD::generateScaleMatrix(float x, float y, float z) {
         1.0;
     return M;
 }
+Eigen::Matrix4f LRD::generateScaleMatrix(const Eigen::Vector3f& scale) {
+    return LRD::generateScaleMatrix(scale.x(), scale.y(), scale.y());
+}
 
 Eigen::Matrix4f LRD::generateRotMatrix(float ax, float ay, float az,
                                        float angle) {
@@ -32,22 +35,29 @@ Eigen::Matrix4f LRD::generateRotMatrix(float ax, float ay, float az,
     return model;
 }
 
-Eigen::Matrix4f generateModelMatrix(LRD::Transform trans)
+Eigen::Matrix4f LRD::generateRotMatrix(const Eigen::Vector3f& axiso, float angle)
 {
+    return LRD::generateRotMatrix(axiso.x(), axiso.y(), axiso.z(), angle);
+}
+
+Eigen::Matrix4f LRD::generateModelMatrix(LRD::Transform trans) {
     Eigen::Matrix4f m;
-    Eigen::Matrix4f MoveMatrix  = LRD::generateMoveMatrix(trans.dx, trans.dy, trans.dz);
-    Eigen::Matrix4f RotMatrix   = LRD::generateRotMatrix(trans.ax, trans.ay, trans.az, trans.angle);
-    Eigen::Matrix4f ScaleMatrix = LRD::generateScaleMatrix(trans.scalex, trans.scaley, trans.scalez);
-    m = MoveMatrix*ScaleMatrix*RotMatrix;
+    Eigen::Matrix4f MoveMatrix =
+        LRD::generateMoveMatrix(trans.dx, trans.dy, trans.dz);
+    Eigen::Matrix4f RotMatrix =
+        LRD::generateRotMatrix(trans.ax, trans.ay, trans.az, trans.angle);
+    Eigen::Matrix4f ScaleMatrix =
+        LRD::generateScaleMatrix(trans.scalex, trans.scaley, trans.scalez);
+    m = MoveMatrix * ScaleMatrix * RotMatrix;
     return m;
 }
 
-Eigen::Matrix4f generateMoveMatrix(Eigen::Vector3f d)
-{
+Eigen::Matrix4f LRD::generateMoveMatrix(const Eigen::Vector3f& d) {
     return LRD::generateMoveMatrix(d.x(), d.y(), d.z());
 }
 
-Eigen::Matrix4f generateViewMatrix(LRD::Camera camera)
-{
-
+Eigen::Matrix4f generateViewMatrix(LRD::Camera camera) {
+    Eigen::Matrix4f m;
+    Eigen::Matrix4f MoveMatrix = LRD::generateMoveMatrix(-camera.pos);
+    return m;
 }
