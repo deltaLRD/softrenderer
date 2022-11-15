@@ -1,4 +1,5 @@
 #include "Picture.h"
+#include "Windows.h"
 
 int main(int argc, char* argv[])
 {
@@ -7,7 +8,21 @@ int main(int argc, char* argv[])
     {
         for(int j=200;j<400;++j)
         {
-            pic.at(i,j)={255, 255, 255};
+            if(j%3==0)
+            {
+                pic.at(i,j)={255, 0, 0};
+
+            }
+            if(j%3==1)
+            {
+                pic.at(i,j)={0, 255, 0};
+
+            }
+            if(j%3==2)
+            {
+                pic.at(i,j)={0, 0, 255};
+
+            }
         }
     }
     pic.writeToFile();

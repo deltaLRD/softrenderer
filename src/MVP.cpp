@@ -56,8 +56,29 @@ Eigen::Matrix4f LRD::generateMoveMatrix(const Eigen::Vector3f& d) {
     return LRD::generateMoveMatrix(d.x(), d.y(), d.z());
 }
 
-Eigen::Matrix4f generateViewMatrix(LRD::Camera camera) {
+/**
+ * @brief generate the View Matrix of a camera
+ * @param camera 
+ * @return Eigen::Matrix4f
+ */
+Eigen::Matrix4f LRD::generateViewMatrix(LRD::Camera& camera) {
+    // https://zhuanlan.zhihu.com/p/373489211
     Eigen::Matrix4f m;
-    Eigen::Matrix4f MoveMatrix = LRD::generateMoveMatrix(-camera.pos);
+    Eigen::Vector3f Up{0,1,0};
+    Eigen::Vector3f R = Up.cross(camera.dir);
+    Eigen::Vector3f U = camera.dir.cross(R);
+    m <<    R[0], R[1], R[2], -camera.pos[0],
+            U[0], U[1], U[2], -camera.pos[1],
+            camera.dir[0], camera.dir[1], camera.dir[2], -camera.pos[2],
+            0,0,0,1;
+    return m;
+}
+
+Eigen::Matrix4f LRD::generateProjMatrix(LRD::Camera& camera, float znear, float zfar, float width, float height) {
+    Eigen::Matrix4f m;
+    m <<    2.0*znear/height, 0, 0, 0,
+            0, 2.0*znear/width, 0, 0,
+            0, 0, -2.0f/(zfar-znear), -(zfar+znear)/(zfar-znear),
+            0,0,0,1;
     return m;
 }

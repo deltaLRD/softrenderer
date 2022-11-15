@@ -6,8 +6,6 @@
 namespace LRD {
 
 struct Camera{
-private:
-public:
   Eigen::Vector3f pos;
   Eigen::Vector3f dir;
   Eigen::Vector3f up;

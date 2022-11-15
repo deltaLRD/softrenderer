@@ -30,7 +30,9 @@ Eigen::Matrix4f generateMoveMatrix(const Eigen::Vector3f& d);
 
 Eigen::Matrix4f generateModelMatrix(LRD::Transform trans);
 
-Eigen::Matrix4f generateViewMatrix(LRD::Camera camera);
+Eigen::Matrix4f generateViewMatrix(LRD::Camera& camera);
+
+Eigen::Matrix4f generateProjMatrix(LRD::Camera& camera, float znear, float zfar, float width, float height);
 } // namespace LRD
 
 #endif

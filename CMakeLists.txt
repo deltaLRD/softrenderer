@@ -18,6 +18,7 @@ link_directories(${PROJECT_SOURCE_DIR}/libs)
 set(SRCS
     src/Model.cpp
     src/Picture.cpp
+    src/MVP.cpp
 )
 
 
